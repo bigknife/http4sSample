@@ -1,0 +1,11 @@
+<web-app>
+  <servlet>
+    <servlet-name>SampleServlet</servlet-name>
+    <servlet-class>sample.world.SampleServlet</servlet-class>
+    <async-supported>true</async-supported>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SampleServlet</servlet-name>
+    <url-pattern>/*</url-pattern>
+  </servlet-mapping>
+</web-app>
